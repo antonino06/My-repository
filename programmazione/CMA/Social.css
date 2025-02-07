@@ -1,0 +1,51 @@
+html {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvx8-XPFpD8dTRYO_3WwnX8yx6o37dgqDBQ&s);
+}
+.social-icons i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #ffff;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 2rem 1rem 0rem;
+    transition: 0.3s ease;
+    color: #ffff;
+    text-align: center;
+
+}
+
+.social-icons i:hover{
+    color:black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #ffff;
+    box-shadow: 0 0 25px #ffff;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #494949;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #ffff;
+    transition: 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 1rem 0rem 1rem;
+}
+
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: #ffff;
+    color: #a1a1a1;
+    box-shadow: 0 0 25px #ffff;   
+}

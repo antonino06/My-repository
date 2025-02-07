@@ -1,0 +1,19 @@
+ul li {
+    display: inline;
+}
+a {
+    justify-content: center;
+    background: red;
+    color: #fff;
+    padding: 5px 10px;
+    border: 2px solid rgb(255 84 104);
+    margin: 10px;
+}
+h1 {
+    color: red;
+    text-align: center;
+}
+body {
+    background-image: url(https://gpkingdom.it/wp-content/uploads/2023/08/enzo-ferrar-1024x659.jpeg);
+    background-position: center;
+}

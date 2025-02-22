@@ -25,7 +25,7 @@
 - Media Queries
 */
 
-html {
+.home {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYvx8-XPFpD8dTRYO_3WwnX8yx6o37dgqDBQ&s);
 }
 
@@ -125,7 +125,7 @@ p{
   padding-left: 50px;
   padding-right: 50px;      
   padding-bottom: 50px;
-  color: white;
+  color: black;
   justify-content: center;
   text-align: center;
 }
@@ -216,7 +216,6 @@ span{
 @media(max-width:995px){
   .home{
     flex-direction: column;
-    margin: 5rem 4rem;
   }
   .home .home-content h3{
     font-size: 2.5rem;
@@ -300,10 +299,6 @@ ul li {
     font-size: 8px;
     margin-left: 5px;
   }
-
-  .home{
-    padding-top: 80px;
-  }
   
   .imgg{
     padding-right: 50px;
@@ -362,10 +357,6 @@ ul li {
   nav a{
     font-size: 10px;
     margin-left: 1rem;
-  }
-
-  .home{
-    padding-top: 80px;
   }
 
   .imgg{

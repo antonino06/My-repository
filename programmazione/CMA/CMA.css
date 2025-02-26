@@ -278,13 +278,32 @@ span{
   box-shadow: 0 0 25px #ffff;   
 }
 
-ul li {
-  display: inline;
-}
-
 .chi-siamo{
   text-align: center;
 }
+
+.nav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+    display: inline;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.posizione {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

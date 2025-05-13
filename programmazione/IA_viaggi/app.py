@@ -3,7 +3,7 @@ import ollama
 
 app = Flask(__name__)
 client = ollama.Client()
-MODEL = "llama3.2"
+MODEL = "llama3.1"
 
 @app.route('/', methods=["GET", "POST"])
 def home():

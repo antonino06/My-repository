@@ -71,7 +71,7 @@ def inizializza():
     basex = 0
     tubi = []
     tubi.append(tubi_classe())
-    punti = [] 
+    punti = 0 
     fra_i_tubi = False
 
 def hai_perso():

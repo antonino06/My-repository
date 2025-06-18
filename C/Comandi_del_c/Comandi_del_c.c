@@ -52,7 +52,15 @@ int main() // inizio
     x = pow(); // fa la potenza
     x = sqrt(); // fa la radice quadrata
     */
-    int x = pow((10 + 5), 2);
-    printf("%d", x);  // esecuzione
+    /* operatori di comparazione 
+    bool condizione = 5 < 10; // è vero cioè 1
+    bool condizione = 5 > 10; // è falso cioè 0
+    bool condizione = 10 == 10; // è 10 uguale a 10
+    bool condizione = 11 != 10; // è 11diverso da 10
+    */
+    int x = 11;
+    int y = 20;
+    bool condizione = x < y;
+    printf("%d", condizione);  // esecuzione
     return 0;
 }
